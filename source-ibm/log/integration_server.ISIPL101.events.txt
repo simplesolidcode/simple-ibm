@@ -1,0 +1,247 @@
+2025-04-02 13:42:43.794436Z: [Thread 2012441] (Msg 1/1) BIP1990I: Integration server 'ISIPL101' starting initialization; version '12.0.12.10' (64-bit) 
+2025-04-02 13:42:43.824316Z: [Thread 2012441] (Msg 1/1) BIP9905I: Initializing resource managers. 
+2025-04-02 13:42:44.362592Z: [Thread 2012441] (Msg 1/1) BIP10112I: The resources from 'imbopentelemetry.lil' have not been loaded because the runtime component 'OpenTelemetry' has not been enabled. Reason: 'Integration Server Configuration'. Further detail: 'server.conf.yaml'. 
+2025-04-02 13:42:44.423168Z: [Thread 2012441] (Msg 1/1) BIP10112I: The resources from 'mqsicdc.par' have not been loaded because the runtime component 'ChangeDataCapture' has not been enabled. Reason: 'Restricted by Java Runtime selected'. Further detail: '/Applications/IBM App Connect Enterprise.app/Contents/mqsi/common/jdk/jre/embedded.java.yaml'. 
+2025-04-02 13:42:46.772520Z: [Thread 2012441] (Msg 1/1) BIP9906I: Reading deployed resources. 
+2025-04-02 13:42:46.778192Z: [Thread 2012441] (Msg 1/1) BIP9907I: Initializing deployed resources. 
+2025-04-02 13:42:46.781160Z: [Thread 2012441] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:42:50.194932Z: [Thread 2012441] (Msg 1/1) BIP9332I: PolicyProject 'MyDefaultPolicyProject' has been reloaded successfully. 
+2025-04-02 13:42:50.195064Z: [Thread 2012441] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:42:50.232608Z: [Thread 2012441] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2025-04-02 13:42:50.232792Z: [Thread 2012441] (Msg 1/1) BIP1996I: Listening on HTTP URL '/Transformation_Map'. 
+2025-04-02 13:42:50.233236Z: [Thread 2012441] (Msg 1/1) BIP2269I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') started successfully. 
+2025-04-02 13:42:50.233508Z: [Thread 2012441] (Msg 1/1) BIP9332I: Application 'Transformation_Map' has been reloaded successfully. 
+2025-04-02 13:42:50.499512Z: [Thread 2012589] (Msg 1/1) BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2025-04-02 13:42:50.515636Z: [Thread 2012589] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
+2025-04-02 13:42:50.518816Z: [Thread 2012441] (Msg 1/1) BIP1991I: Integration server has finished initialization. 
+2025-04-02 13:42:56.507088Z: [Thread 2012467] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 13:42:56.509384Z: [Thread 2012467] (Msg 1/1) BIP9339W: The values defined in the policy(s) 'my_db' in policy project 'MyDefaultPolicyProject' match the values of the existing policy(s). Any deployed resources using the policy(s) will not be affected by the redeploy of the policy project. 
+2025-04-02 13:42:56.511136Z: [Thread 2012467] (Msg 1/1) BIP9326I: The source 'MyDefaultPolicyProjectproject.generated.bar' has been successfully deployed. 
+2025-04-02 13:42:56.511636Z: [Thread 2012467] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 13:43:07.134494Z: [Thread 2012465] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 13:43:07.146354Z: [Thread 2012465] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:43:11.204934Z: [Thread 2012465] (Msg 1/1) BIP2271I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') successfully stopped. 
+2025-04-02 13:43:11.205157Z: [Thread 2012465] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:43:11.221700Z: [Thread 2012465] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2025-04-02 13:43:11.354111Z: [Thread 2012465] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:43:11.939162Z: [Thread 2012465] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'Transformation_Map/$mqsiApplication.bir'. 
+2025-04-02 13:43:12.016856Z: [Thread 2012465] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:43:12.052485Z: [Thread 2012465] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2025-04-02 13:43:12.052564Z: [Thread 2012465] (Msg 1/1) BIP1996I: Listening on HTTP URL '/Transformation_Map'. 
+2025-04-02 13:43:12.052773Z: [Thread 2012465] (Msg 1/1) BIP2269I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') started successfully. 
+2025-04-02 13:43:12.052847Z: [Thread 2012465] (Msg 1/1) BIP9332I: Application 'Transformation_Map' has been changed successfully. 
+2025-04-02 13:43:12.052976Z: [Thread 2012465] (Msg 1/1) BIP9326I: The source 'Transformation_Mapproject.generated.bar' has been successfully deployed. 
+2025-04-02 13:43:12.053203Z: [Thread 2012465] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 13:43:18.594680Z: [Thread 2014169] (Msg 1/3) BIP3120E: Exception condition detected on input node 'Transformation_Map.HTTP Input'. 
+2025-04-02 13:43:18.594734Z: [Thread 2014169] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'Transformation_Map.Map'. 
+2025-04-02 13:43:18.594768Z: [Thread 2014169] (Msg 3/3) BIP6231E: An error occurred in node: Broker 'integration_server'; Execution Group 'ISIPL101'; Message Flow 'Transformation_Map'; Node 'Map'; Node Type 'Mapping Exception details:  message: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource stack trace: [java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+com.ibm.broker.classloading.JavaResourceClassLoader.findClass(JavaResourceClassLoader.java:180)
+com.ibm.broker.classloading.SharedClassLoader.findClass(SharedClassLoader.java:230)
+java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+com.ibm.broker.classloading.JavaResourceClassLoader.loadClass(JavaResourceClassLoader.java:579)
+com.ibm.broker.classloading.SharedClassLoader.loadClass(SharedClassLoader.java:238)
+com.ibm.broker.classloading.ReverseDelegationClassLoader.findClass(ReverseDelegationClassLoader.java:135)
+com.ibm.broker.classloading.JarsURLClassLoader.findClass(JarsURLClassLoader.java:92)
+java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+com.ibm.broker.classloading.JavaResourceClassLoader.loadClass(JavaResourceClassLoader.java:579)
+com.ibm.broker.jdbctype4.jdbcdbasemgr.JDBCType4Connection.createXAConnection(JDBCType4Connection.java:201)
+com.ibm.broker.jdbctype4.jdbcdbasemgr.JDBCType4DatabaseManager.getThreadOwnedConnections(JDBCType4DatabaseManager.java:328)
+com.ibm.broker.jdbctype4.localtrxn.JDBCType4SinglePhaseTrxnHandler.getConnection(JDBCType4SinglePhaseTrxnHandler.java:260)
+com.ibm.broker.jdbctype4.localtrxn.JDBCType4SinglePhaseTrxnHandler.getConnection(JDBCType4SinglePhaseTrxnHandler.java:150)
+com.ibm.broker.jdbctype4.connfact.JDBCType4ConnectionFactory.getConnection(JDBCType4ConnectionFactory.java:146)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.ibm.broker.plugin.MbNode.getJDBCType4Connection(MbNode.java:2317)
+com.ibm.broker.ct.mapping.MappingNode.getDBConnection(MappingNode.java:1912)
+com.ibm.broker.ct.mapping.JDBCWrapper.prepare(JDBCWrapper.java:2890)
+com.ibm.broker.ct.mapping.JDBCWrapper.select(JDBCWrapper.java:663)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.ibm.xml.xci.exec.BasicMutableDynamicContext$JavaMethodExecutable.execute(BasicMutableDynamicContext.java:984)
+com.ibm.xml.xci.exec.BasicDynamicContext$ExternalFunction.execute(BasicDynamicContext.java:361)
+com.ibm.xltxe.rnm1.xtq.runtime.FILLibrary_Common_Partition0.xslt2$24$getReturnAsXCICursor(com_ibm_xmlns_prod_xltxe_j_linetable)
+com.ibm.xltxe.rnm1.xtq.runtime.FILLibrary_Common$MM_xslt2$24$getReturnAsXCICursor.invoke(com.ibm.xltxe.rnm1.xtq.runtime.FILLibrary_Common$MM_xslt2$24$getReturnAsXCICursor.java)
+com.ibm.xltxe.rnm1.xylem.instructions.MixedModeModuleFunctionCallInstruction.evaluate(MixedModeModuleFunctionCallInstruction.java:127)
+com.ibm.xltxe.rnm1.xylem.instructions.MixedModeModuleFunctionCallInstruction.evaluate(MixedModeModuleFunctionCallInstruction.java:48)
+com.ibm.xltxe.rnm1.xylem.instructions.LetBaseInstruction.evaluate(LetBaseInstruction.java:433)
+com.ibm.xltxe.rnm1.xtq.xslt.xylem.instructions.xdm.XDMSequenceInstruction.evaluate(XDMSequenceInstruction.java:696)
+com.ibm.xltxe.rnm1.xylem.instructions.LetBaseInstruction.evaluate(LetBaseInstruction.java:414)
+com.ibm.xltxe.rnm1.xtq.xquery.drivers.InterpretedQuerylet.evaluate(InterpretedQuerylet.java:212)
+com.ibm.xltxe.rnm1.xtq.xquery.drivers.XQueryExecutable.execute(XQueryExecutable.java:220)
+com.ibm.xltxe.rnm1.xtq.xquery.drivers.XQueryExecutable.execute(XQueryExecutable.java:97)
+com.ibm.broker.map.MbMapExecutable.execute(MbMapExecutable.java:464)
+com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:500)
+com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2210)] 
+2025-04-02 13:49:01.519863Z: [Thread 2012467] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 13:49:01.525560Z: [Thread 2012467] (Msg 1/1) BIP9328E: The policy project 'MyDefaultPolicyProject' cannot be redeployed at this time as the non-dynamic policy 'my_db' differs from what is currently deployed. To allow redeploying of this policy project use the 'restart-all-applications' option. 
+2025-04-02 13:49:01.525702Z: [Thread 2012467] (Msg 1/1) BIP9325E: The source 'MyDefaultPolicyProjectproject.generated.bar' could not be deployed as it contains errors. No changes have been made to the integration server. 
+2025-04-02 13:49:01.526945Z: [Thread 2012467] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 13:49:47.572188Z: [Thread 2012461] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 13:49:47.572260Z: [Thread 2012461] (Msg 1/1) BIP2153I: About to 'deleteAll' an integration server. 
+2025-04-02 13:49:47.573240Z: [Thread 2012461] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:49:49.899624Z: [Thread 2012461] (Msg 1/1) BIP2271I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') successfully stopped. 
+2025-04-02 13:49:49.899908Z: [Thread 2012461] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:49:49.910248Z: [Thread 2012461] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2025-04-02 13:49:50.047852Z: [Thread 2012461] (Msg 1/1) BIP9521I: Application 'Transformation_Map' has been deleted. 
+2025-04-02 13:49:50.048824Z: [Thread 2012461] (Msg 1/1) BIP9521I: PolicyProject 'MyDefaultPolicyProject' has been deleted. 
+2025-04-02 13:49:50.074856Z: [Thread 2012461] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 13:49:58.815748Z: [Thread 2012461] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 13:49:58.822696Z: [Thread 2012461] (Msg 1/1) BIP9332I: PolicyProject 'MyDefaultPolicyProject' has been created successfully. 
+2025-04-02 13:49:58.822852Z: [Thread 2012461] (Msg 1/1) BIP9326I: The source 'MyDefaultPolicyProjectproject.generated.bar' has been successfully deployed. 
+2025-04-02 13:49:58.823160Z: [Thread 2012461] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 13:50:22.696466Z: [Thread 2012461] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 13:50:22.717904Z: [Thread 2012461] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:50:23.289286Z: [Thread 2012461] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'Transformation_Map/$mqsiApplication.bir'. 
+2025-04-02 13:50:23.384182Z: [Thread 2012461] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:50:23.422406Z: [Thread 2012461] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2025-04-02 13:50:23.422532Z: [Thread 2012461] (Msg 1/1) BIP1996I: Listening on HTTP URL '/Transformation_Map'. 
+2025-04-02 13:50:23.422854Z: [Thread 2012461] (Msg 1/1) BIP2269I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') started successfully. 
+2025-04-02 13:50:23.422898Z: [Thread 2012461] (Msg 1/1) BIP9332I: Application 'Transformation_Map' has been created successfully. 
+2025-04-02 13:50:23.422938Z: [Thread 2012461] (Msg 1/1) BIP9326I: The source 'Transformation_Mapproject.generated.bar' has been successfully deployed. 
+2025-04-02 13:50:23.423208Z: [Thread 2012461] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 13:50:30.702828Z: [Thread 2037011] (Msg 1/3) BIP3120E: Exception condition detected on input node 'Transformation_Map.HTTP Input'. 
+2025-04-02 13:50:30.702898Z: [Thread 2037011] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'Transformation_Map.Map'. 
+2025-04-02 13:50:30.702934Z: [Thread 2037011] (Msg 3/3) BIP6231E: An error occurred in node: Broker 'integration_server'; Execution Group 'ISIPL101'; Message Flow 'Transformation_Map'; Node 'Map'; Node Type 'Mapping Exception details:  message: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource stack trace: [java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+com.ibm.broker.classloading.JavaResourceClassLoader.findClass(JavaResourceClassLoader.java:180)
+com.ibm.broker.classloading.SharedClassLoader.findClass(SharedClassLoader.java:230)
+java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+com.ibm.broker.classloading.JavaResourceClassLoader.loadClass(JavaResourceClassLoader.java:579)
+com.ibm.broker.classloading.SharedClassLoader.loadClass(SharedClassLoader.java:238)
+com.ibm.broker.classloading.ReverseDelegationClassLoader.findClass(ReverseDelegationClassLoader.java:135)
+com.ibm.broker.classloading.JarsURLClassLoader.findClass(JarsURLClassLoader.java:92)
+java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+com.ibm.broker.classloading.JavaResourceClassLoader.loadClass(JavaResourceClassLoader.java:579)
+com.ibm.broker.jdbctype4.jdbcdbasemgr.JDBCType4Connection.createXAConnection(JDBCType4Connection.java:201)
+com.ibm.broker.jdbctype4.jdbcdbasemgr.JDBCType4DatabaseManager.getThreadOwnedConnections(JDBCType4DatabaseManager.java:328)
+com.ibm.broker.jdbctype4.localtrxn.JDBCType4SinglePhaseTrxnHandler.getConnection(JDBCType4SinglePhaseTrxnHandler.java:260)
+com.ibm.broker.jdbctype4.localtrxn.JDBCType4SinglePhaseTrxnHandler.getConnection(JDBCType4SinglePhaseTrxnHandler.java:150)
+com.ibm.broker.jdbctype4.connfact.JDBCType4ConnectionFactory.getConnection(JDBCType4ConnectionFactory.java:146)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.ibm.broker.plugin.MbNode.getJDBCType4Connection(MbNode.java:2317)
+com.ibm.broker.ct.mapping.MappingNode.getDBConnection(MappingNode.java:1912)
+com.ibm.broker.ct.mapping.JDBCWrapper.prepare(JDBCWrapper.java:2890)
+com.ibm.broker.ct.mapping.JDBCWrapper.select(JDBCWrapper.java:663)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.ibm.xml.xci.exec.BasicMutableDynamicContext$JavaMethodExecutable.execute(BasicMutableDynamicContext.java:984)
+com.ibm.xml.xci.exec.BasicDynamicContext$ExternalFunction.execute(BasicDynamicContext.java:361)
+com.ibm.xltxe.rnm1.xtq.runtime.FILLibrary_Common_Partition0.xslt2$24$getReturnAsXCICursor(com_ibm_xmlns_prod_xltxe_j_linetable)
+com.ibm.xltxe.rnm1.xtq.runtime.FILLibrary_Common$MM_xslt2$24$getReturnAsXCICursor.invoke(com.ibm.xltxe.rnm1.xtq.runtime.FILLibrary_Common$MM_xslt2$24$getReturnAsXCICursor.java)
+com.ibm.xltxe.rnm1.xylem.instructions.MixedModeModuleFunctionCallInstruction.evaluate(MixedModeModuleFunctionCallInstruction.java:127)
+com.ibm.xltxe.rnm1.xylem.instructions.MixedModeModuleFunctionCallInstruction.evaluate(MixedModeModuleFunctionCallInstruction.java:48)
+com.ibm.xltxe.rnm1.xylem.instructions.LetBaseInstruction.evaluate(LetBaseInstruction.java:433)
+com.ibm.xltxe.rnm1.xtq.xslt.xylem.instructions.xdm.XDMSequenceInstruction.evaluate(XDMSequenceInstruction.java:696)
+com.ibm.xltxe.rnm1.xylem.instructions.LetBaseInstruction.evaluate(LetBaseInstruction.java:414)
+com.ibm.xltxe.rnm1.xtq.xquery.drivers.InterpretedQuerylet.evaluate(InterpretedQuerylet.java:212)
+com.ibm.xltxe.rnm1.xtq.xquery.drivers.XQueryExecutable.execute(XQueryExecutable.java:220)
+com.ibm.xltxe.rnm1.xtq.xquery.drivers.XQueryExecutable.execute(XQueryExecutable.java:97)
+com.ibm.broker.map.MbMapExecutable.execute(MbMapExecutable.java:464)
+com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:500)
+com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2210)] 
+2025-04-02 13:55:36.242100Z: [Thread 2012466] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 13:55:36.242964Z: [Thread 2012466] (Msg 1/1) BIP2153I: About to 'deleteAll' an integration server. 
+2025-04-02 13:55:36.243896Z: [Thread 2012466] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:55:36.935492Z: [Thread 2012466] (Msg 1/1) BIP2271I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') successfully stopped. 
+2025-04-02 13:55:36.935672Z: [Thread 2012466] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:55:36.953788Z: [Thread 2012466] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2025-04-02 13:55:37.043520Z: [Thread 2012466] (Msg 1/1) BIP9521I: Application 'Transformation_Map' has been deleted. 
+2025-04-02 13:55:37.044136Z: [Thread 2012466] (Msg 1/1) BIP9521I: PolicyProject 'MyDefaultPolicyProject' has been deleted. 
+2025-04-02 13:55:37.045912Z: [Thread 2012466] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 13:55:45.111720Z: [Thread 2012468] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 13:55:45.119440Z: [Thread 2012468] (Msg 1/1) BIP9332I: PolicyProject 'MyDefaultPolicyProject' has been created successfully. 
+2025-04-02 13:55:45.119948Z: [Thread 2012468] (Msg 1/1) BIP9326I: The source 'MyDefaultPolicyProjectproject.generated.bar' has been successfully deployed. 
+2025-04-02 13:55:45.120324Z: [Thread 2012468] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 13:56:02.369138Z: [Thread 2012468] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 13:56:02.388452Z: [Thread 2012468] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:56:02.826300Z: [Thread 2012468] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'Transformation_Map/$mqsiApplication.bir'. 
+2025-04-02 13:56:02.946150Z: [Thread 2012468] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 13:56:02.982807Z: [Thread 2012468] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2025-04-02 13:56:02.982890Z: [Thread 2012468] (Msg 1/1) BIP1996I: Listening on HTTP URL '/Transformation_Map'. 
+2025-04-02 13:56:02.983378Z: [Thread 2012468] (Msg 1/1) BIP2269I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') started successfully. 
+2025-04-02 13:56:02.983430Z: [Thread 2012468] (Msg 1/1) BIP9332I: Application 'Transformation_Map' has been created successfully. 
+2025-04-02 13:56:02.983463Z: [Thread 2012468] (Msg 1/1) BIP9326I: The source 'Transformation_Mapproject.generated.bar' has been successfully deployed. 
+2025-04-02 13:56:02.983670Z: [Thread 2012468] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 13:56:09.849753Z: [Thread 2055259] (Msg 1/5) BIP3120E: Exception condition detected on input node 'Transformation_Map.HTTP Input'. 
+2025-04-02 13:56:09.849793Z: [Thread 2055259] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'Transformation_Map.Map'. 
+2025-04-02 13:56:09.849808Z: [Thread 2055259] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'Transformation_Map.HTTP Reply'. 
+2025-04-02 13:56:09.849828Z: [Thread 2055259] (Msg 4/5) BIP5706E: JSON writing errors have occurred. 
+2025-04-02 13:56:09.849843Z: [Thread 2055259] (Msg 5/5) BIP5714E: A JSON writing error occurred. No element named 'Data' was found as a child of the root element. 
+2025-04-02 14:00:16.671371Z: [Thread 2055259] (Msg 1/5) BIP3120E: Exception condition detected on input node 'Transformation_Map.HTTP Input'. 
+2025-04-02 14:00:16.671522Z: [Thread 2055259] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'Transformation_Map.Map'. 
+2025-04-02 14:00:16.671543Z: [Thread 2055259] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'Transformation_Map.HTTP Reply'. 
+2025-04-02 14:00:16.671556Z: [Thread 2055259] (Msg 4/5) BIP5706E: JSON writing errors have occurred. 
+2025-04-02 14:00:16.671572Z: [Thread 2055259] (Msg 5/5) BIP5714E: A JSON writing error occurred. No element named 'Data' was found as a child of the root element. 
+2025-04-02 14:03:36.844976Z: [Thread 2012459] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 14:03:36.853792Z: [Thread 2012459] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:03:37.842456Z: [Thread 2012459] (Msg 1/1) BIP2271I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') successfully stopped. 
+2025-04-02 14:03:37.842664Z: [Thread 2012459] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:03:37.858488Z: [Thread 2012459] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2025-04-02 14:03:38.036332Z: [Thread 2012459] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:03:38.553896Z: [Thread 2012459] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'Transformation_Map/$mqsiApplication.bir'. 
+2025-04-02 14:03:38.645768Z: [Thread 2012459] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:03:38.683976Z: [Thread 2012459] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2025-04-02 14:03:38.684052Z: [Thread 2012459] (Msg 1/1) BIP1996I: Listening on HTTP URL '/Transformation_Map'. 
+2025-04-02 14:03:38.684424Z: [Thread 2012459] (Msg 1/1) BIP2269I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') started successfully. 
+2025-04-02 14:03:38.684496Z: [Thread 2012459] (Msg 1/1) BIP9332I: Application 'Transformation_Map' has been changed successfully. 
+2025-04-02 14:03:38.684588Z: [Thread 2012459] (Msg 1/1) BIP9326I: The source 'Transformation_Mapproject.generated.bar' has been successfully deployed. 
+2025-04-02 14:03:38.684820Z: [Thread 2012459] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 14:03:45.446912Z: [Thread 2078843] (Msg 1/5) BIP3120E: Exception condition detected on input node 'Transformation_Map.HTTP Input'. 
+2025-04-02 14:03:45.446976Z: [Thread 2078843] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'Transformation_Map.Map'. 
+2025-04-02 14:03:45.446996Z: [Thread 2078843] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'Transformation_Map.HTTP Reply'. 
+2025-04-02 14:03:45.447012Z: [Thread 2078843] (Msg 4/5) BIP5706E: JSON writing errors have occurred. 
+2025-04-02 14:03:45.447028Z: [Thread 2078843] (Msg 5/5) BIP5714E: A JSON writing error occurred. No element named 'Data' was found as a child of the root element. 
+2025-04-02 14:08:28.741138Z: [Thread 2012464] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 14:08:28.754678Z: [Thread 2012464] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:08:31.666996Z: [Thread 2012464] (Msg 1/1) BIP2271I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') successfully stopped. 
+2025-04-02 14:08:31.667320Z: [Thread 2012464] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:08:31.679410Z: [Thread 2012464] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2025-04-02 14:08:31.772740Z: [Thread 2012464] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:08:32.163998Z: [Thread 2012464] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'Transformation_Map/$mqsiApplication.bir'. 
+2025-04-02 14:08:32.255486Z: [Thread 2012464] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:08:32.293102Z: [Thread 2012464] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2025-04-02 14:08:32.293174Z: [Thread 2012464] (Msg 1/1) BIP1996I: Listening on HTTP URL '/Transformation_Map'. 
+2025-04-02 14:08:32.293468Z: [Thread 2012464] (Msg 1/1) BIP2269I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') started successfully. 
+2025-04-02 14:08:32.293510Z: [Thread 2012464] (Msg 1/1) BIP9332I: Application 'Transformation_Map' has been changed successfully. 
+2025-04-02 14:08:32.293544Z: [Thread 2012464] (Msg 1/1) BIP9326I: The source 'Transformation_Mapproject.generated.bar' has been successfully deployed. 
+2025-04-02 14:08:32.293754Z: [Thread 2012464] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 14:10:55.976280Z: [Thread 2012467] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 14:10:55.999820Z: [Thread 2012467] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:10:56.160900Z: [Thread 2012467] (Msg 1/1) BIP2271I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') successfully stopped. 
+2025-04-02 14:10:56.161152Z: [Thread 2012467] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:10:56.164748Z: [Thread 2012467] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2025-04-02 14:10:56.263228Z: [Thread 2012467] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:10:56.594900Z: [Thread 2012467] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'Transformation_Map/$mqsiApplication.bir'. 
+2025-04-02 14:10:56.684644Z: [Thread 2012467] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:10:56.724304Z: [Thread 2012467] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2025-04-02 14:10:56.724360Z: [Thread 2012467] (Msg 1/1) BIP1996I: Listening on HTTP URL '/Transformation_Map'. 
+2025-04-02 14:10:56.724680Z: [Thread 2012467] (Msg 1/1) BIP2269I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') started successfully. 
+2025-04-02 14:10:56.724732Z: [Thread 2012467] (Msg 1/1) BIP9332I: Application 'Transformation_Map' has been changed successfully. 
+2025-04-02 14:10:56.724764Z: [Thread 2012467] (Msg 1/1) BIP9326I: The source 'Transformation_Mapproject.generated.bar' has been successfully deployed. 
+2025-04-02 14:10:56.725040Z: [Thread 2012467] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-04-02 14:17:20.417468Z: [Thread 2012461] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-04-02 14:17:20.429044Z: [Thread 2012461] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:17:25.065972Z: [Thread 2012461] (Msg 1/1) BIP2271I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') successfully stopped. 
+2025-04-02 14:17:25.066244Z: [Thread 2012461] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:17:25.084798Z: [Thread 2012461] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2025-04-02 14:17:25.242746Z: [Thread 2012461] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:17:25.612980Z: [Thread 2012461] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'Transformation_Map/$mqsiApplication.bir'. 
+2025-04-02 14:17:25.693104Z: [Thread 2012461] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Transformation_Map' of type 'Application'. 
+2025-04-02 14:17:25.731784Z: [Thread 2012461] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2025-04-02 14:17:25.731844Z: [Thread 2012461] (Msg 1/1) BIP1996I: Listening on HTTP URL '/Transformation_Map'. 
+2025-04-02 14:17:25.731946Z: [Thread 2012461] (Msg 1/1) BIP2269I: Deployed resource 'Transformation_Map' (uuid='Transformation_Map',type='MessageFlow') started successfully. 
+2025-04-02 14:17:25.731986Z: [Thread 2012461] (Msg 1/1) BIP9332I: Application 'Transformation_Map' has been changed successfully. 
+2025-04-02 14:17:25.732030Z: [Thread 2012461] (Msg 1/1) BIP9326I: The source 'Transformation_Mapproject.TestMode.bar' has been successfully deployed. 
+2025-04-02 14:17:25.732240Z: [Thread 2012461] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 

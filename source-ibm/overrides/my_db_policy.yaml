@@ -1,0 +1,14 @@
+---
+policies:
+  - name: my_db
+    type: JDBCProvider
+    properties:
+      type: "com.mysql.cj.jdbc.Driver"
+      url: "jdbc:mysql://localhost:3306/your_database"
+      username: "your_username"
+      password: "your_password"
+      connectionPool:
+        minConnections: 1
+        maxConnections: 10
+        connectionTimeout: 30
+        reapTime: 180 

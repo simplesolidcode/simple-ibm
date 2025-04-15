@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="default" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="default" version="8.0.5.0">
+    <inlinedXMLSchema targetNamespace="http://www.ibm.com/iib/msl/json">
+        <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ibm.com/iib/msl/json">
+      
+  <xsd:complexType block="#all" name="JSONArray_1">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="Item" nillable="true" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+</xsd:schema>
+]]>
+    </inlinedXMLSchema>
+    <input path="db:database(/my_db.dbm,my_db,db:schema-tables(my_db,users))" var="mydb"/>
+    <input inlinedXMLSchema="true" path="../schema_1.xsd" targetNamespace="http://www.ibm.com/iib/msl/json" var="var6"/>
+    <input path="jar:file://!com/ibm/msl/mapping/rdb/xsds/dbexception.xsd" var="var7"/>
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/JsonDomainMsg.xsd" var="var5"/>
+    <namespaces>
+        <namespace kind="supplement" prefix="out" uri="http://www.ibm.com/iib/msl/json"/>
+        <namespace kind="extension" prefix="fn" uri="http://www.w3.org/2005/xpath-functions"/>
+    </namespaces>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="Transformation_Map">
+        <input path="$mydb/db:select(fn:false(),ResultSet(my_db/users/name),db:where('1=1'))" var="dbselect"/>
+        <output namespace="http://www.ibm.com/iib/msl/json" path="$var5/mb:msg(JSON,assembly,JSON,Properties)" var="MessageAssembly">
+            <cast castType="userDefined" path="$MessageAssembly/JSON/Data/type('anyType')" qualifier="{http://www.ibm.com/iib/msl/json}JSONArray_1" ref="var6"/>
+        </output>
+        <transaction>
+            <select ref="dbselect">
+                <input path="$dbselect/ResultSet"/>
+                <output path="$MessageAssembly/JSON"/>
+                <move>
+                    <input path="my_db/users/name"/>
+                    <output path="spath('Data',2)/Item"/>
+                </move>
+            </select>
+            <failure>
+                <input path="$var7/DBExceptions"/>
+            </failure>
+        </transaction>
+    </mappingDeclaration>
+</mappingRoot>

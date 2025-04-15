@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="/Users/ivan_cheprasov/IBM/ACET12/workspace/TestModeBarFiles/Transformation_Mapproject.TestMode.bar" deployTimestamp="2025-04-02 14:17:20">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="Transformation_Map" deployBarfile="/Users/ivan_cheprasov/IBM/ACET12/workspace/TestModeBarFiles/Transformation_Mapproject.TestMode.bar" deployTimestamp="2025-04-02 14:17:20">
+    <ConfigurableProperty uri="Transformation_Map#HTTP Input.URLSpecifier" override="/Transformation_Map">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#HTTP Input.faultFormat" override="JSON">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Transformation_Map#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

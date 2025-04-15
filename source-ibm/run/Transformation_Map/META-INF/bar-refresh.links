@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1617820588000" workspaceResource="/Transformation_Map/InputXMLSchema.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Transformation_Map/InputXMLSchema.xsd.&#xA;Successfully added file Transformation_Map/InputXMLSchema.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="InputXMLSchema.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617820588000" workspaceResource="/Transformation_Map/OutputXMLSchema.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Transformation_Map/OutputXMLSchema.xsd.&#xA;Successfully added file Transformation_Map/OutputXMLSchema.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="OutputXMLSchema.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1743603047000" workspaceResource="/Transformation_Map/Transformation_Map.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Transformation_Map/Transformation_Map.map.&#xA;Successfully added file Transformation_Map/Transformation_Map.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="Transformation_Map.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1743602908000" workspaceResource="/Transformation_Map/Transformation_Map.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Transformation_Map/Transformation_Map.msgflow.&#xA;Successfully added file Transformation_Map/Transformation_Map.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="Transformation_Map.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617820588000" workspaceResource="/Transformation_Map/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Transformation_Map/application.descriptor.&#xA;Successfully added file Transformation_Map/application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file Transformation_Map/application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617820588000" workspaceResource="/Transformation_Map/input.xml">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Transformation_Map/input.xml.&#xA;Successfully added file Transformation_Map/input.xml to BAR file.&#xA;" severity="0"/>
+      <barEntry name="input.xml"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>
